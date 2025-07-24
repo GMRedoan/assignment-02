@@ -5,6 +5,20 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* shared items */
+.btn-primary{
+    padding:15px 93px;
+    color: white;
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    font-weight: 600;
+ }
+ .btn-primary:hover{
+    background-color: black;
+}
+.btn-primary{
+    cursor: pointer;
+}
 /* navbar section */
 nav{
     display: flex;
@@ -34,15 +48,52 @@ nav ul li a{
 .banner-title{
     font-size: 65px;
     font-weight: bold;
-    
-}
+ }
 .banner-subtitle{
     font-size: 22px;
     font-family: sans-serif;
     margin-top: -35px;
     color: rgba(0, 0, 0, 0.5);
 }
- 
+/* plants section */
+.title-container{
+    text-align: center;
+    margin: 100px 150px 0px 150px;
+}
+.plant-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.plant-subtitle{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: -25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.items-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    margin: 40px 140px 0px 160px;
+   }
+.item-container img{
+    width: 280px;
+ }
+ .f-name{
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: sans-serif;
+ }
+ .price{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: -15px;
+ }
 /* media quiery for small device */
 @media screen and (max-width:576px) {
     nav{

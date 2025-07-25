@@ -16,7 +16,7 @@
  .btn-primary:hover{
     background-color: black;
 }
-.btn-primary, .text-blockss p, .text-blocks p, .text-block p{
+ .btn-primary, .btn-secondary, .footer-container ul li, .footer-icon img{
     cursor: pointer;
 }
 .btn-secondary{
@@ -183,9 +183,9 @@ nav ul li a{
     font-size: 20px;
     font-weight: bold;
 }
-.text-block p{
+.text-block a{
     margin-top: -13px;
-    text-decoration: underline;
+    color: white;
 }
  .text-blocks {
   position: absolute;
@@ -198,9 +198,9 @@ nav ul li a{
     font-size: 20px;
     font-weight: bold;
 }
-.text-blocks p{
+.text-blocks a{
     margin-top: -13px;
-    text-decoration:underline;
+    color: white;
 }
 .text-blockss {
   position: absolute;
@@ -213,11 +213,11 @@ nav ul li a{
     font-size: 40px;
     font-weight: bold;
 }
-.text-blockss p{
+.text-blockss a{
     margin-top: -30px;
     font-size: 28px;
     font-weight: 500;
-    text-decoration:underline;
+    color: white;
 }
 /* join section */
 .bg{
@@ -241,8 +241,28 @@ nav ul li a{
     padding:15px 440px 15px 20px;
     font-size: 16px;
 }
+/* footer section */
+.footer-container{
+    display: flex;
+    margin: 40px 100px 20px 180px;
+    gap: 100px;
+}
+ .footer-description{
+    font-size: 22px;
+    color: rgba(107, 114, 128, 1);
+}
+.footer-container ul li{
+    list-style: none;
+    color: rgba(107, 114, 128, 1);
+    margin-bottom: 30px;
+     
+ }
+ .footer-icon img{
+    margin-top: 15px;
+     margin-left: 30px;
+ }
 
- /* media quiery for small device */
+  /* media quiery for small device */
 @media screen and (max-width:576px) {
     nav{
         margin-left:10px;
@@ -336,32 +356,14 @@ nav ul li a{
   margin-right: -100px;
   bottom: 270px;
   right: 20px;
-  color: white;
- }
-.text-block h4{
-    font-size: 20px;
-    font-weight: bold;
-}
-.text-block p{
-    margin-top: -13px;
-    text-decoration: underline;
-}
- .text-blocks {
+  }
+   .text-blocks {
   margin-left: -100px;
   margin-right: -100px;
   bottom: 70px;
   right: 25px;
-  color: white;
  }
-.text-blocks h4{
-    font-size: 20px;
-    font-weight: bold;
-}
-.text-blocks p{
-    margin-top: -13px;
-    text-decoration:underline;
-}
-.text-blockss {
+ .text-blockss {
   bottom: 45px;
   right: 20px;
   color: white;
@@ -372,12 +374,11 @@ nav ul li a{
     font-size: 20px;
     font-weight: bold;
 }
-.text-blockss p{
+.text-blockss a{
     margin-top: -10px;
     font-size: 16px;
     font-weight: 500;
-    text-decoration:underline;
-}
+ }
 .bg{width: 390px;
     height: 270px;
     margin-top: 30px;
@@ -402,6 +403,25 @@ nav ul li a{
     font-size: 14px;
     margin-left: -5px;
 }
-
+.footer-container{
+    flex-direction: column;
+    margin: 40px 10px 20px 10px;
+    gap: 0px;
+  }
+  .footer-description{
+    font-size: 16px;
+  }
+ .footer-icon{
+    margin-left:-15px;
  }
- 
+ .footer-icon img{
+    margin-left:15px;
+ }
+ .footer-container ul li{
+    margin-bottom: 20px ;
+    margin-left: -35px;
+ }
+ br{
+    display: none;
+ }
+}

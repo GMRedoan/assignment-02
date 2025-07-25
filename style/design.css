@@ -153,74 +153,69 @@ nav ul li a{
     font-family: sans-serif;
     margin-top: -30px;
  }
- .deals-img-cont{
-    display: flex;
-    margin: 0px 150px 0px 160px;
-    max-width: 1140px;
-    gap: 40px;
- }
-  .deals-img1 img{
-    border-radius: 14px;
-    margin-bottom: 15px;
-    filter: brightness(60%);
- }
- .deals-img2 img{
-    border-radius: 22px;
-    width:835px;
-    height: 420px;
-    filter: brightness(60%);
+ .deal-bg{
+    display: flex ;
+    gap:20px ;
+    margin:0px 10px 0px 160px;
 }
-.deals-img1, .deals-img2{
-    position: relative;
+.bg1{
+    background:linear-gradient(rgba(0, 0, 0, 0.4)), url(../images/deal-ana.png);
+    background-repeat: no-repeat;
+    width:365px ;
+    height:199px;
+    border-radius:14px;
+    margin-bottom: 20px;
+    }
+.deals-container2{
+    padding:  50px 30px 65px 30px ;
+    text-align: center ;
 }
-.text-block {
-  position: absolute;
-  bottom: 280px;
-  right: 70px;
-  color: white;
-  text-align: center;
-}
-.text-block h4{
-    font-size: 20px;
-    font-weight: bold;
-}
-.text-block a{
-    margin-top: -13px;
+.deals-title2{
     color: white;
-}
- .text-blocks {
-  position: absolute;
-  bottom: 70px;
-  right: 80px;
-  color: white;
-  text-align: center;
-}
-.text-blocks h4{
-    font-size: 20px;
     font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px ;
 }
-.text-blocks a{
-    margin-top: -13px;
+.bg1 a{
+     color: white;
+     font-weight: 500;
+     font-size: 16px;
+ }
+ .bg2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4)), url(../images/deal-bloom.png);
+    background-repeat: no-repeat;
+    width:365px ;
+    border-radius:14px;
+}
+.bg2 a{
+     color: white;
+     font-weight: 500;
+     font-size: 16px;
+ }
+.bg3{
+    background :linear-gradient(rgba(0, 0, 0, 0.4)), url(../images/deal-zabo.png);
+    background-repeat: no-repeat;
+    width:855px ;
+    height:420px;
+    border-radius:22px;
+    background-size: cover;
+ }
+ .deal-container{
+    padding: 116px 160px 86px 160px;
+    text-align: center;
+}
+.deal-title{
     color: white;
-}
-.text-blockss {
-  position: absolute;
-  bottom: 130px;
-  right: 200px;
-  color: white;
-  text-align: center;
-}
-.text-blockss h4{
+    font-weight: bold;
     font-size: 40px;
-    font-weight: bold;
-}
-.text-blockss a{
-    margin-top: -30px;
-    font-size: 28px;
-    font-weight: 500;
-    color: white;
-}
-/* join section */
+    margin-bottom:20px;
+ }
+.bg3 a{
+     color: white;
+     font-weight: 500;
+     font-size: 28px;
+  }
+ /* join section */
 .bg{
     background: url(../images/news-letter-bg.png);
     background-repeat: no-repeat;
@@ -336,51 +331,37 @@ nav ul li a{
         margin-left: -20px;
     }
     /* deals section */
-    .deals-img-cont{
-        flex-direction: column;
-    }
-    .deals-img-cont img{
-        width: 370px;
-        height: 180px;
-        border-radius: 12px;
-        filter: brightness(60%);
-        margin-left: -150px;
-    }
-    .deals-img2 img{
-        margin-top: -40px;
-    }
-    .deals-container{
-         margin: 40px 10px 40px 10px;
-    }
-    .text-block {
-  margin-left: -100px;
-  margin-right: -100px;
-  bottom: 270px;
-  right: 20px;
-  }
-   .text-blocks {
-  margin-left: -100px;
-  margin-right: -100px;
-  bottom: 70px;
-  right: 25px;
+ .deals-container{
+     margin: 70px 0px 40px 10px;
  }
- .text-blockss {
-  bottom: 45px;
-  right: 20px;
-  color: white;
-  margin-left: -100px;
-  margin-right: -100px;  
+ .deals-title{
+    font-size: 24px;
+ }
+ .deals-subtitle{
+    font-size: 14px;
+ }
+     .deal-bg{
+    flex-direction: column;
+    gap:20px ;
+    margin-left:10px;
 }
-.text-blockss h4{
+.bg3{
+    width: 365px;
+    height: 190px;
+    border-radius: 14px;
+}
+.deal-title{
     font-size: 20px;
-    font-weight: bold;
+  }
+.bg3 a{
+     font-size: 16px;
+  }
+.deal-container{
+    padding: 40px;
 }
-.text-blockss a{
-    margin-top: -10px;
-    font-size: 16px;
-    font-weight: 500;
- }
-.bg{width: 390px;
+    /* join section */
+  .bg{
+    width: 390px;
     height: 270px;
     margin-top: 30px;
     padding-right: 20px;

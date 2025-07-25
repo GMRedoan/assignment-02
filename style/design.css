@@ -162,13 +162,13 @@ nav ul li a{
   .deals-img1 img{
     border-radius: 14px;
     margin-bottom: 15px;
-    filter: brightness(70%);
+    filter: brightness(60%);
  }
  .deals-img2 img{
     border-radius: 22px;
     width:835px;
     height: 420px;
-    filter: brightness(70%);
+    filter: brightness(60%);
 }
 .deals-img1, .deals-img2{
     position: relative;

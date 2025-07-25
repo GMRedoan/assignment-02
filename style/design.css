@@ -32,11 +32,12 @@
     position: relative;
 }
  #badge{
-    width: 280px;
+     width: 280px;
      position: absolute;
      top:-20%;
      right:-25%;
      animation: rotation 5s infinite linear;
+     filter: drop-shadow(5px 5px 5px);
  }
  @keyframes rotation {
   from {
